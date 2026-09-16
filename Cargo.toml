@@ -5,4 +5,4 @@ edition = "2024"
 
 [dependencies]
 rustyline = "18.0.1"
-nix = { version = "0.29", features = ["fs"] }
+nix = { version = "0.29", features = ["fs", "process"] }
